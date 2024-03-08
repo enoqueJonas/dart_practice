@@ -1,6 +1,6 @@
 import 'dart:io';
 
-// Problema 1: Calculando a média de um conjunto de números
+// Problema 1: Calcular a média de um conjunto de números
 double calcularMedia(List<double> numeros) {
   if (numeros.isEmpty) return 0;
   double soma = 0;
@@ -37,7 +37,7 @@ int somaDigitos(int numero) {
   return soma;
 }
 
-void problema2() {
+void problemas2() {
   stdout.write("Insira um número inteiro: ");
   var input = stdin.readLineSync();
   var numero = int.tryParse(input!);
@@ -57,7 +57,7 @@ int segundoMaior(List<int> numeros) {
 }
 
 void problema3() {
-  List<int> numeros = [5, 10, 3, 8, 15]; // Exemplo de array, pode ser alterado
+  List<int> numeros = [5, 10, 3, 8, 15];
   var segundoMaiorNumero = segundoMaior(numeros);
   print("O segundo maior número é: $segundoMaiorNumero");
 }
