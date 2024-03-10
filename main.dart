@@ -37,7 +37,7 @@ int somaDigitos(int numero) {
   return soma;
 }
 
-void problemas2() {
+void problemas() {
   stdout.write("Insira um número inteiro: ");
   var input = stdin.readLineSync();
   var numero = int.tryParse(input!);
