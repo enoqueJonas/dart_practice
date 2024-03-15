@@ -1,7 +1,7 @@
 import 'dart:io';
 
 // Problema 1: Calcular a média de um conjunto de números
-double calcularMedias(List<double> numeros) {
+double calcularMedia(List<double> numeros) {
   if (numeros.isEmpty) return 0;
   double soma = 0;
   for (var numero in numeros) {
